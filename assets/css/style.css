@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+
+.block-bar{
+    z-index: 5;
+    display: block;
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+}
+
+.topbar{
+    height: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.central-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: left;
+    position: absolute;
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 3px solid blue;
+    height: 250px;
+    width: 100%;
+}
+
+.cont-left{
+    border: 1px solid black;
+    width: 70%;
+    height: 5000px;
+}
+
+.cont-right{
+    border: 5px solid green;
+    width: 29%;
+    height: 500px;
+}
+
+.num{
+    border: 1px solid orange;
+    width: 29%;
+    height: 100px;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+
+.logo{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.search, .bookmark, .bell{
+    text-align: center;
+    margin: 10px;
+}
+
+.rm{
+    line-height: 30px;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 30px;
+    white-space: nowrap;
+    height: 30px;
+    padding: 0 15px;
+}
+
+.circle{
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
