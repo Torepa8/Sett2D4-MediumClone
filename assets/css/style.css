@@ -38,14 +38,49 @@ body{
     align-items: center;
     justify-content:space-evenly;
     border: 3px solid blue;
-    height: 250px;
+    height: 300px;
     width: 100%;
+    padding-top: 30px;
+}
+
+p{
+    position: absolute;
+    color: black;
+    font-size: large;
+    margin-left: 50px;
+}
+
+span{
+    font-size: 40px;
+    /* background-color: aquamarine; */
+    opacity: 10%;
+}
+
+.intern-face{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+h3{
+    /* background-color: bisque; */
+    width: 200px;
+    height: 20px;
+}
+
+h5, h6{
+    margin: 2px 40px;
+}
+
+h6{
+    opacity: 50%;
 }
 
 .cont-left{
     border: 1px solid black;
     width: 70%;
-    height: 5000px;
+    height: 1000px;
 }
 
 .cont-right{
@@ -55,9 +90,14 @@ body{
 }
 
 .num{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    align-items: center;
     border: 1px solid orange;
     width: 29%;
-    height: 100px;
+    height: 130px;
+    margin: 1px;
 }
 
 
