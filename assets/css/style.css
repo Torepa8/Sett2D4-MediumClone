@@ -3,7 +3,7 @@ body{
 }
 
 .block-bar{
-    z-index: 5;
+    z-index: 99;
     display: block;
     position: fixed;
     margin-top: 0;
@@ -29,7 +29,7 @@ body{
     margin-top: 100px;
     height: auto;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .block{
@@ -37,7 +37,8 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-evenly;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    border-bottom: 1px solid black;
     height: 300px;
     width: 100%;
     padding-top: 30px;
@@ -77,16 +78,25 @@ h6{
     opacity: 50%;
 }
 
+.img-left{
+    width: 100px;
+    height: auto;
+}
+
 .cont-left{
     border: 1px solid black;
-    width: 70%;
+    width: 60%;
     height: 1000px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .cont-right{
     border: 5px solid green;
     width: 29%;
     height: 500px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .num{
@@ -94,8 +104,19 @@ h6{
     flex-wrap: wrap;
     align-content: baseline;
     align-items: center;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 29%;
+    height: 130px;
+    margin: 1px;
+}
+
+.num-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    align-items: center;
+    /* border: 1px solid orange; */
+    width: 50%;
     height: 130px;
     margin: 1px;
 }
