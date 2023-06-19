@@ -97,6 +97,9 @@ h6{
     height: 500px;
     padding-left: 30px;
     padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .num{
@@ -144,6 +147,11 @@ h6{
     white-space: nowrap;
     height: 30px;
     padding: 0 15px;
+}
+
+div.cont-right .rm{
+    background-color: gainsboro;
+    padding: 1px 3px;
 }
 
 .circle{
