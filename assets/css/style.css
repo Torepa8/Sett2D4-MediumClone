@@ -84,7 +84,7 @@ h6{
 }
 
 .cont-left{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 60%;
     height: 1000px;
     padding-left: 30px;
@@ -92,20 +92,22 @@ h6{
 }
 
 .cont-right{
-    border: 5px solid green;
+    /* border: 5px solid green; */
     width: 29%;
-    height: 500px;
+    height: 300px;
     padding-left: 30px;
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    position: sticky;
+    top: 100px;
 }
 
 .num{
     display: flex;
     flex-wrap: wrap;
-    align-content: baseline;
+    align-content: center;
     align-items: center;
     /* border: 1px solid orange; */
     width: 29%;
@@ -115,13 +117,29 @@ h6{
 
 .num-left{
     display: flex;
-    flex-wrap: wrap;
-    align-content: baseline;
-    align-items: center;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
     /* border: 1px solid orange; */
-    width: 50%;
+    width: auto;
     height: 130px;
     margin: 1px;
+}
+
+.num-left-intern{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px solid orange; */
+    width: auto;
+    height: 130px;
+    margin: 1px;
+}
+
+.intern-img{
+    width: 270px;
+    height: 130px;
 }
 
 
@@ -142,7 +160,7 @@ h6{
 .rm{
     line-height: 30px;
     margin: 20px;
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius: 30px;
     white-space: nowrap;
     height: 30px;
